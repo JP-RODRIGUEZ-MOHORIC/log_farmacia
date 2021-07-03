@@ -1,3 +1,8 @@
+<!-- Template -->
+<!-- 
+# archivo-apendice.py
+f = open('template.txt','a') 
+-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,33 +14,38 @@
 </head>
 <body>
     <h1 class="title">Card Hover</h1>
-<div class="container">
-    <div class="card">
-        <img src="assets/images/Matador.jpg" class="imagen" alt="">
-        <h4 class="card-title">El Matador</h4>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam error labore reprehenderit ullam sit quis dolor, blanditiis numquam minima voluptatem officiis veniam. Et laborum sed, dignissimos nam nobis nostrum.</p>
-        <div class="card-link">
-           <a href="#" class="card-link-text">Leer Más</a>
-            </div>
+<div class="container" id="container inicial">
+<!-- FIN Template -->
+
+<!-- ESTO DEBE GENERARLO PY POR CADA ORDEN PROCESADA -->
+
+<!-- f.write('\n' + 'Hola Mundo') -->
+<!-- Body que se arma desde Py -->
+<!-- Ésto lo escribimos con el comando write -->
+
+<div class="card">
+    <!--<img src="assets/images/el-torito.jpg" class="imagen" alt="">-->
+   <h4 class="card-title">Número de orden: 
+       {{nro_orden + TIME STAMP}}           <!-- ESTO VIENE DESDE EL LOG -->
+   </h4>
+   <p class="card-text">
+       <!-- ESTO SERIA TEXTO PLANO DE LA ORDEN (DESDE EL LOG) -->
+       Vendedor: FREDY
+       Cant.           Cod.    Descripcion
+       1.000           267861  VOGUE COLORISSIMO MATTE FRAMB CTC ae
+        NINGUN PRODUCTO EN EL ROBOT</p>
+
+   <div class="card-link">
+   <a href="
+   https://twitter.com/marianombustos    ESTO SERIA UNA IMAGEN EN DROPBOX, QUE VIENE EL ENLACE DESDE EL LOG 
+   " target="_blank" class="card"></a>
     </div>
 
-    <div class="card">
-        <img src="assets/images/El-Burrito.jpg" class="imagen" alt="">
-        <h4 class="card-title">El Burrito</h4>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam error labore reprehenderit ullam sit quis dolor, blanditiis numquam minima voluptatem officiis veniam. Et laborum sed, dignissimos nam nobis nostrum.</p>
-        <div class="card-link">
-            <a href="#" class="card-link-text" >Leer Más</a>
-            </div>
-    </div>
+<!-- HASTA ACA GENERA PY -->
 
-    <div class="card">
-        <img src="assets/images/el-torito.jpg" class="imagen" alt="">
-        <h4 class="card-title">El Torito</h4>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam error labore reprehenderit ullam sit quis dolor, blanditiis numquam minima voluptatem officiis veniam. Et laborum sed, dignissimos nam nobis nostrum.</p>
-        <div class="card-link">
-        <a href="#" class="card-link-text" >Leer Más</a>
-        </div>
-    </div>
+<!-- Footer -->
+</div>
 </div>
 </body>
 </html>
+<!-- Fin Footer -->
